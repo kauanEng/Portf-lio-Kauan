@@ -1,0 +1,56 @@
+* {
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.navbar-toggler-icon {
+    color: black;
+    background-color: #8d99ae;
+    border-radius:50px;
+}
+
+
+
+
+body {
+    background-color: #FEFEFE;
+    background-image: url('../img/back7.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size:20px;
+    color: black;
+}
+
+
+.container-geral {
+
+   padding: 100px;
+}
+
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+
+
+
+
+
+
+
+
+

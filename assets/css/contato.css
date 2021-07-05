@@ -1,0 +1,95 @@
+.contato-texto {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    color: black;
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.form-group  {
+    width: 500px;
+}
+
+
+.icones-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contato {
+    padding-top: 20px;
+}
+
+.area-icone {
+    display: flex;
+
+
+}
+
+.icone1 {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.icone1:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.icone2 {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.icone2:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.icone3 {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.icone3:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.icone4 {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.icone4:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.icone1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.icone2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.icone3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.icone4 {
+    margin: 10px;
+    padding: 10px;
+}

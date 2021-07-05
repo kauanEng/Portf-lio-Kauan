@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.resume {
+    display: flex;
+    height:400px;
+    align-items: center;
+    padding: 2rem;
+	background: #DAF1FF;
+	width: auto;
+	margin: 0 auto;
+
+}
+
+.resume p {
+    font-family: 'Antonio', sans-serif;
+    margin: 10px;
+    font-weight: 400;
+    padding: 110px;
+}
+
+.foto-perfil img {
+    padding: 25px;
+    padding-top: 100px;
+    float: left;
+    width: auto;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+.resume-titulo {
+    color: black;
+    padding-top: 120px;
+    padding-left: 30px;
+}
+
+.resume-projeto {
+    color: black;
+    font-weight: 400;
+    padding-top: 30px;
+    padding: 2rem;
+}
+
+.container-down  {
+    display:flex;
+    padding-right: 205px;
+    justify-content: center;
+    padding-bottom: 35px;
+    max-width: 1721px;
+   
+}
+
+.btn-down {
+    background-color: crimson;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.btn-down:hover{
+    background-color: #780000;
+}
+
+.btn btn-danger:hover {
+    background-color: #780000;
+}
+
+
+a {
+    color:white !important;
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 1036px) {
+    .resume {
+      height: 750px;
+      font-size: 25px;  
+    }
+    .container-down {
+        padding-bottom: 50px;
+        padding: 0;
+    }
+    .resume p {
+        padding: 80px;
+        margin:0px;
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+    .titulo-principal {
+        padding-top: 40px;
+    }
+    .foto-perfil img {
+        display: flex;
+        padding:40px;
+        flex-direction: column;
+        padding-top:0px;
+    }
+
+    .resume {
+        height: auto;
+    }
+
+    .resume p {
+        padding:0px;
+        margin:0;
+        }
+
+        .container-down {
+            padding-top: 35px;
+        }
+
+        .divisao-container {
+            padding-top:100px;
+        }
+
+        .container-geral {
+            padding: 0;
+        }
+
+        .resume-projeto {
+            padding: 0;
+        }
+
+        .resume-titulo {
+            padding: 0;
+            font-size:20px;
+        }
+
+        .container-img-titulo > img {
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            height:100%;
+            width:100%;
+            padding: auto;
+        }
+
+}
