@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 .padrao {  /*container geral */
    
@@ -17,7 +21,6 @@
 .padrao .secao-titulo {
    font-size: 20px;
    color: black;
-  
 }
 
 .padrao .secao-desc {
