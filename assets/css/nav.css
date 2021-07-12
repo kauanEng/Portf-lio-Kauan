@@ -3,7 +3,10 @@ nav {
     height:60px;
     color: black;
     list-style: none;
+   
 }
+
+
 
 header {
     color: black;
@@ -16,7 +19,7 @@ a.nav-link {
 }
 
 nav li:hover {
-    background:#ade8f4;
+    background:#E3E7FA;
 }
 .nav-item-icons {
     margin-left: 600px;
@@ -27,33 +30,288 @@ nav li:hover {
     width:20px;
 }
 
-#subir {
-    text-decoration: none;
-    background-color: crimson;
-    bottom: 30px;
-    right: 30px;
-    text-align: center;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 15px;
-    position: fixed;
-    opacity: .8;
-    content: url(/assets/img/flecha.png);
-    border-radius: 100%;
-    scroll-behavior: smooth !important;  
-}
+
 
 span.navbar-toggler-icon {
     width: 5rem;
     color: white;
+    
 }
 
-@media screen and (max-width:992px) {
+
+
+@media  (min-width:455px) and (max-width: 800px) { 
     nav {
         padding: 0 !important;
         height: auto !important;
     }
+
+    .navbar-nav 
+{
+    background-color:#adb5bd;
 }
+
+.title-inicio-letras {
+    padding: 25px;
+}
+
+.body-inicio-letras {
+    font-size: 25px !important;
+}
+
+.padrao {
+    padding: 12px;
+    font-size: 20px;
+}
+
+.padrao, .dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 50px !important;
+}
+.secao-sobremim-esquerda {
+    padding-bottom: 50px;
+}
+
+.resume-projeto {
+    font-size: 20px;
+}
+
+#navbarNav {
+    transition: all ease .5s;
+}
+
+.container-geral {
+    padding: 10px !important;
+}
+
+span.navbar-toggler-icon {
+    margin-right: 12px;
+    color: white;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ced4da ;
+    border: 1px solid white;
+    font-size: 35px;
+}
+
+a.nav-link img {
+    display: flex;
+    align-items: center;
+    background-color: #ffafcc;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+    
+ .container-cards {
+     padding-bottom: 100px !important;
+ }
+
+    h1 .titulo-principal {
+        padding-top: 500px;
+
+    }
+
+    .divisao__titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 29px;
+    }
+
+    #portfolio {
+        padding-top: 215px;
+    }
+
+    .container-geral {
+        padding: 25px;
+    }
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px !important;
+    }
+
+    .contato-texto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+@media (max-width:454px) {
+    nav {
+        padding: 0 !important;
+        height: auto !important;
+    }
+
+    .navbar-nav 
+{
+    background-color:#adb5bd;
+}
+
+#img1 {
+    width: 400px;
+}
+
+
+.title-inicio-letras {
+    padding: 25px;
+}
+
+.body-inicio-letras {
+    font-size: 25px !important;
+}
+
+.padrao {
+    padding: 12px;
+    font-size: 20px;
+}
+
+.padrao, .dark {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px !important;
+}
+
+.secao-sobremim-esquerda {
+    padding-bottom: 50px;
+}
+
+.resume-projeto {
+    font-size: 20px;
+}
+
+#navbarNav {
+    transition: all ease .5s;
+}
+
+.container-geral {
+    padding: 10px !important;
+}
+
+span.navbar-toggler-icon {
+    margin-right: 12px;
+    color: white;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ced4da ;
+    border: 1px solid white;
+    font-size: 35px;
+}
+
+a.nav-link img {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+    
+ .container-cards {
+     padding-bottom: 100px !important;
+ }
+
+    .divisao__titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 29px;
+    }
+
+    #portfolio {
+        padding-top: 215px;
+    }
+
+    .container-geral {
+        padding: 25px;
+    }
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px !important;
+    }
+
+    .contato-texto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .secao-sobremim {
+        flex-direction: column;
+    }
+
+    .secao-sobremim-esquerda {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .secao-sobremim-direita{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .secao-servicos {
+        flex-wrap: wrap;
+    }
+
+    .secao-sobremim-direita img {
+        width: 100%;
+    }
+
+
+    .secao-servico {
+        min-width: 100%;
+        margin-bottom: 30px;
+        padding-top: 60px;
+    }
+
+    .secao-servico:first-child {
+        border: 0;
+    }
+
+    #subir {
+        display: none;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
 
 
 

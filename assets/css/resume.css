@@ -5,7 +5,7 @@
     height:400px;
     align-items: center;
     padding: 2rem;
-	background: #DAF1FF;
+	background: #E3E7FA;
 	width: auto;
 	margin: 0 auto;
 
@@ -35,7 +35,7 @@
 
 .resume-projeto {
     color: black;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     padding-top: 30px;
     padding: 2rem;
 }
@@ -116,10 +116,6 @@ a {
 
         .divisao-container {
             padding-top:100px;
-        }
-
-        .container-geral {
-            padding: 0;
         }
 
         .resume-projeto {
